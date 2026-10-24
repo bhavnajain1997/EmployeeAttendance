@@ -4,6 +4,7 @@
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
+    "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -13,9 +14,17 @@
     "parcel": "^2.16.4"
   },
   "dependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "@tailwindcss/postcss": "^4.3.3",
+    "get-user-locale": "^3.0.0",
+    "memoize": "^10.2.0",
+    "postcss": "^8.5.30",
+    "qrcode.react": "^4.2.0",
     "react": "^19.3.0",
-    "react-calendar": "^3.9.0",
+    "react-calendar": "^5.1.0",
     "react-dom": "^19.3.0",
-    "react-router-dom": "^6.30.6"
+    "react-router-dom": "^6.30.6",
+    "recharts": "^3.10.1",
+    "tailwindcss": "^4.3.3"
   }
 }

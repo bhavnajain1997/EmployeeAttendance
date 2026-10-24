@@ -1,0 +1,44 @@
+{
+  "policies": [
+    {
+      "id": 1,
+      "title": "Office Timings",
+      "icon": "fa-solid fa-clock",
+      "content": "Standard Shift : 9h 00m - 9:30 AM - 06:30 PM (Shift Timings). Mandatory check-in before 09:30 AM for standard working credits."
+    },
+    {
+      "id": 2,
+      "title": "Attendance Rules",
+      "icon": "fa-solid fa-square-check",
+      "content": "Grace Period : 15 mins upto 9:45 AM (Max 3 lates permitted per month). Post 9:45 AM will count directly toward late arrivals."
+    },
+    {
+      "id": 3,
+      "title": "Late Arrival Penalty",
+      "icon": "fa-solid fa-triangle-exclamation",
+      "content": "Late Penalty : 3 Lates = 0.5 Leaves (Deduction applied automatically in monthly payroll reconciliation)."
+    },
+    {
+      "id": 4,
+      "title": "Work From Home (WFH)",
+      "icon": "fa-solid fa-house-chimney",
+      "content": "Leave & WFH : Max 4 WFH days & 1.5 Paid leaves per month. Must be requested at least 24 hours in advance."
+    },
+    {
+      "id": 5,
+      "title": "Absence & Leave",
+      "icon": "fa-solid fa-square-xmark",
+      "content": "Half Day Cutoff : 4h 00m (Minimum 4 hours required for half-day credit; less than 4 hours is marked as Absent)."
+    }
+  ],
+  "barData": [
+    { "name": "Full Day", "hours": 9 },
+    { "name": "Half Day", "hours": 4 },
+    { "name": "Grace", "hours": 0.25 }
+  ],
+  "pieData": [
+    { "name": "Office", "value": 16.5, "color": "#172554" },
+    { "name": "WFH", "value": 4, "color": "#06b6d4" },
+    { "name": "Leave", "value": 1.5, "color": "#f59e0b" }
+  ]
+}
